@@ -1,0 +1,9 @@
+.search-btn:hover {
+  color: black !important;
+  border: 1px solid rgba(56, 70, 255, 0.471) !important;
+}
+.search-btn {
+  padding: "5px";
+  background-color: rgba(74, 237, 255, 0.471) !important;
+  color: black !important;
+}

@@ -1,0 +1,47 @@
+.hero-container {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.hero-banner-img {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  transform: translateY(-40%);
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.hero-button {
+  background-color: rgba(74, 237, 255, 0.471) !important;
+  color: black !important;
+  padding: 13px 25px !important;
+  margin-top: 20px;
+}
+
+@media (max-width: 1350px) {
+  .hero-banner-img {
+    width: 70%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero-banner-img {
+    width: 70%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero-banner-img {
+    display: none;
+  }
+
+  .hero-container {
+    padding: 20px;
+  }
+}
